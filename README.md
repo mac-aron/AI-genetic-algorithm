@@ -8,7 +8,7 @@ This project implements a genetic algorithm (GA) in Matlab in order to explore a
 4. Follow the CLI to set the parameters for the generational algorithm
 5. Wait several seconds for the Muir map and the fitness score graph
 
-**NOTE:** re-run the sript if the algorithm has a very low fitness score, this could be due to entering a peak/trough in the data
+**NOTE:** re-run the script if the algorithm has a very low fitness score, this could be due to entering a peak/trough in the data
 
 ## Project description
 In this project, a controller is evolved for a simulated ant. Each ant must survive on its own in a world represented by a 2D grid of cells by following trails of food. Each cell in the world either has a piece of food or is empty and the cells wrap-around (so, moving up when in the top row leaves the ant in the bottom row of the grid).
