@@ -23,26 +23,18 @@ In terms of the algorithm implementation, the main task is to implement with Mat
 The algorithm makes use of the following appropriate `selection`, `crossover`, `mutation`, and `replacement` operators, all of which are implemented without using any exisiting libraries. For each of the paramter values in each method I have carefully made the design decisions on how to implement the algorithm and what parameter values to use, and those can be set in the macros section in `main.m`.
 
 ### Selection
-- **Roulette wheel selection** is a method of selecting individuals
-        from a population in a genetic algorithm (GA) to participate in
-        the reproduction process. The idea behind roulette wheel
-        selection is to assign a higher probability of selection to
+- **Roulette wheel selection** is a method to assign a higher probability of selection to
         individuals with better fitness scores, in a way that is similar
         to linear-rank selection. However, in roulette wheel selection,
         the selection probabilities are assigned in a continuous manner,
         rather than being based on ranks.
-- **Tournament selection** is a method of selecting individuals from a
-        population in a genetic algorithm (GA) to participate in the
-        reproduction process. The idea behind tournament selection is to
+- **Tournament selection** is a method to
         randomly select a small group of individuals (called a
         tournament) from the population, and then choose the individual
         with the best fitness score to participate in reproduction. This
         process is repeated until the desired number of individuals have
         been selected.
-- **Linear-rank selection** is a method of selecting individuals from a
-        population in a genetic algorithm (GA) to participate in the
-        reproduction process. The idea behind linear-rank selection is
-        to assign a higher probability of selection to individuals with
+- **Linear-rank selection** is a method to assign a higher probability of selection to individuals with
         better fitness scores. This can be done by ranking the
         individuals in the population according to their fitness scores,
         and then assigning a selection probability to each individual
