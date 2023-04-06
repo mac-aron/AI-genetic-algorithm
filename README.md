@@ -1,4 +1,4 @@
-# genetic-algorithm-AI
+# AI-genetic-algorithm
 Implement a genetic algorithm (GA) in Matlab
 
 ## How to run?
