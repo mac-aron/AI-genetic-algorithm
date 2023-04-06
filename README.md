@@ -1,5 +1,5 @@
 # AI-genetic-algorithm
-This project implements a genetic algorithm (GA) in Matlab in order to explore and experiment with a number of selection, mutation, crossover, and replacement strategies. The goal is to maximize the overall fitness score over a number of generations. After repeated measurements, the average fitness score is 91% in 867 generations (or less, but depends a lot on the startegies used, and their parameters set in the `MACROS`. 
+This project implements a genetic algorithm (GA) in Matlab in order to explore and experiment with a number of selection, mutation, crossover, and replacement strategies. The goal is to maximize the overall fitness score over a number of generations. After repeated measurements, the average fitness score is 91% in 867 generations (or less, but depends a lot on the startegies used, and their parameters set in the `MACROS` in `main.m`. 
 
 ## How to run?
 1. Ensure you are running `MATLAB 2020a` or later versions
