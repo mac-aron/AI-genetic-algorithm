@@ -4,7 +4,7 @@ This project implements a genetic algorithm (GA) in Matlab in order to explore a
 ## How to run?
 1. Ensure you are running `MATLAB 2020a` or later versions
 2. Open `main.m`
-3. Execute `matlab run main.m` in the Matlab `Command Window`
+3. Execute `run main.m` in the Matlab `Command Window`
 4. Follow the CLI to set the parameters for the generational algorithm
 5. Wait several seconds for the Muir map and the fitness score graph
 
