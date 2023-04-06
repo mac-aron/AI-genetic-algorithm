@@ -2,7 +2,7 @@
 This project implements a genetic algorithm (GA) in Matlab in order to explore and experiment with a number of selection, mutation, crossover, and replacement strategies. The goal is to maximize the overall fitness score over a number of generations. After repeated measurements, the average fitness score is **>91%** in 667 generations (or less, but depends a lot on the startegies used, and macros set in `main.m`. 
 
 ## How to run?
-1. Ensure you are running `MATLAB 2020a` or later versions
+1. Ensure you are running Matlab 2020a or later versions
 2. Open `main.m`
 3. Execute `run main.m` in the Matlab `Command Window`
 4. Follow the CLI to set the parameters for the generational algorithm
